@@ -5,15 +5,15 @@ An intelligent Tic Tac Toe agent trained using Reinforcement Learning (Q-Learnin
 
 ## Overview
 
-This project implements an intelligent Tic Tac Toe game using Reinforcement Learning and the Q-Learning algorithm. The agent learns optimal moves through trial-and-error interactions and gradually improves its gameplay performance over time.
+This project implements an intelligent Tic Tac Toe game using Reinforcement Learning and the Q-Learning algorithm. The AI agent learns optimal gameplay strategies through training and improves its decision-making over time.
 
 ## Features
 
 * Q-Learning based AI agent
 * Self-learning gameplay mechanism
 * Intelligent move selection
-* Win, lose, and draw reward system
 * Human vs AI gameplay
+* Trained Q-Table implementation
 
 ## Technologies Used
 
@@ -21,11 +21,19 @@ This project implements an intelligent Tic Tac Toe game using Reinforcement Lear
 * Reinforcement Learning
 * Q-Learning
 * NumPy
+* Tkinter
+
+## Files
+
+* train_ai.py – Trains the Q-Learning agent.
+* play_game.py – Launches the Tic Tac Toe game.
+* q_table.pkl – Stores the trained Q-Table used by the AI agent.
 
 ## Project Objective
 
-To demonstrate how Reinforcement Learning can be applied to game environments, enabling an AI agent to learn optimal strategies through experience rather than explicit programming.
+To demonstrate how Reinforcement Learning can be applied to game environments, enabling an AI agent to learn optimal strategies through experience and reward-based learning.
 
 ## Author
 
 Ansari Falak Naaz
+
